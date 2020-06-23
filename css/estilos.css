@@ -1,0 +1,171 @@
+body{
+    background-color: #f5f5f7;
+    font-family: Helvetica;
+    margin: 2%;
+}
+
+.header_section
+,h3,h1{
+margin: 0;
+}
+
+.header_sectionTitle{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header_sectionSubtitle{
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.sectionNav_list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+    border-radius: 6px;
+}
+
+.sectionNav_list{
+    padding-inline-start: 0%;
+}
+
+.sectionNav_list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.sectionNav_list li:first-child{
+    background-color: #c84451;
+    color: white;
+}
+
+.sectionNav_list li:hover a{
+    color: white;
+    width: 100%;
+}
+
+.sectionNav_list li:hover {
+    background-color:#c84451;
+    border-radius: inherit
+}
+
+.sectionNav_list li a{
+    text-decoration: none;
+    color: #c36078;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.popular_topicContainer{
+    display: flex;
+}
+
+.popular_Topic{
+    height: 15%;
+    border-radius: 8px;
+    display: flex;
+    padding: 23px;
+    background-color: white;
+}
+
+.figure_container{
+    display: flex;
+    justify-content: end;
+}
+
+.image_Section{
+    width: 350px;
+    height: 162px;
+    border: 1px solid #EDEEEF;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_TopicItems h2{
+    margin: 4px;
+    color: #C3464C;
+}
+
+.popular_TopicItems h3{
+    color: #66717F;
+}
+
+.topics{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    background-color: white;
+    
+}
+
+.topics article{
+    height: 14%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 20px;
+}
+
+.author_details h5, h6{
+    margin: 1px;
+    font-weight: normal;
+}
+
+.author_details_name{
+    color: red;
+}
+
+.new_details h2{
+    color: #c84451;
+    margin-top: 0;
+}
+.new_details_extend{
+    color: #c84451;
+}
+
+.topics_Line{
+    width: 94%;
+    margin: 0 26px;
+    border: 1px solid #EDDFE4;
+    
+}
+
+.latest_news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.footer_Copyright{
+    color: #BFB9B9;
+}
